@@ -25,8 +25,8 @@ CookieConsent.run({
         translations: {
             it: {
                 consentModal: {
-                    title: "Ciao viaggiatore, è tempo di biscotti!",
-                    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+                    title: "Questo sito web utilizza i cookie",
+                    description: "Utilizziamo i cookie per personalizzare contenuti ed annunci, per fornire funzionalità dei social media e per analizzare il nostro traffico. Condividiamo inoltre informazioni sul tuo utilizzo del nostro sito con i nostri partner di social media, pubblicità e analisi che potrebbero combinarle con altre informazioni che hai fornito loro o che hanno raccolto dal tuo utilizzo dei loro servizi.",
                     acceptAllBtn: "Accetta tutto",
                     acceptNecessaryBtn: "Rifiuta tutto",
                     showPreferencesBtn: "Gestisci preferenze",
@@ -42,7 +42,7 @@ CookieConsent.run({
                     sections: [
                         {
                             title: "Utilizzo dei Cookie",
-                            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                            description: "Utilizziamo solo cookie tecnici per facilitare la tua esperienza di navigazione."
                         },
                         {
                             title: "Cookie Strettamente Necessari <span class=\"pm__badge\">Sempre Attivati</span>",
@@ -51,7 +51,7 @@ CookieConsent.run({
                         },
                         {
                             title: "Ulteriori informazioni",
-                            description: "For any query in relation to my policy on cookies and your choices, please <a class=\"cc__link\" href=\"#yourdomain.com\">contact me</a>."
+                            description: "Per ogni informazione e richiesta in merito alla nostra gestione dei cookies per favore <a class=\"cc__link\" href=\"#yourdomain.com\">contattaci</a>."
                         }
                     ]
                 }
