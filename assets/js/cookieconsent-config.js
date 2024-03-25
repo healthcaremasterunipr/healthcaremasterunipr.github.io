@@ -30,7 +30,7 @@ CookieConsent.run({
                     acceptAllBtn: "Accetta tutto",
                     acceptNecessaryBtn: "Rifiuta tutto",
                     showPreferencesBtn: "Gestisci preferenze",
-                    footer: "<a href=\"#link\">Informativa sulla privacy</a>\n<a href=\"#link\">Termini e condizioni</a>"
+                    footer: "<a href="">Informativa sulla privacy</a>\n<a href=\"#link\">Termini e condizioni</a>"
                 },
                 preferencesModal: {
                     title: "Centro preferenze per il consenso",
