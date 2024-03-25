@@ -26,11 +26,11 @@ CookieConsent.run({
             it: {
                 consentModal: {
                     title: "Questo sito web utilizza i cookie",
-                    description: "Utilizziamo solo cookie tecnici per facilitare la tua esperienza di navigazione.
+                    description: "Utilizziamo i cookie per personalizzare contenuti ed annunci, per fornire funzionalità dei social media e per analizzare il nostro traffico. Condividiamo inoltre informazioni sul tuo utilizzo del nostro sito con i nostri partner di social media, pubblicità e analisi che potrebbero combinarle con altre informazioni che hai fornito loro o che hanno raccolto dal tuo utilizzo dei loro servizi.",
                     acceptAllBtn: "Accetta tutto",
                     acceptNecessaryBtn: "Rifiuta tutto",
                     showPreferencesBtn: "Gestisci preferenze",
-                    footer: "<a href=\"https://www.unipr.it/privacypolicy">Informativa sulla privacy</a>
+                    footer: "<a href=\"#link\">Informativa sulla privacy</a>\n<a href=\"#link\">Termini e condizioni</a>"
                 },
                 preferencesModal: {
                     title: "Centro preferenze per il consenso",
@@ -46,7 +46,7 @@ CookieConsent.run({
                         },
                         {
                             title: "Cookie Strettamente Necessari <span class=\"pm__badge\">Sempre Attivati</span>",
-                            description: "I cookie necessari contribuiscono a rendere fruibile il sito web abilitandone funzionalità di base quali la navigazione sulle pagine e l'accesso alle aree protette del sito. Il sito web non è in grado di funzionare correttamente senza questi cookie.",
+                            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
                             linkedCategory: "necessary"
                         },
                         {
