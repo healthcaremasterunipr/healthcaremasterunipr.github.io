@@ -42,7 +42,7 @@ CookieConsent.run({
                     sections: [
                         {
                             title: "Utilizzo dei Cookie",
-                            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                            description: "I cookie sono brevi frammenti di testo (lettere e/o numeri) che permettono al server web di memorizzare sul client (il browser, ad es. Internet Explorer, Chrome, Firefox, Opera…) informazioni da riutilizzare nel corso della medesima visita al sito (cookie di sessione) o in seguito, anche a distanza di giorni (cookie persistenti). I cookie vengono memorizzati, in base alle preferenze dell’utente, dal singolo browser sullo specifico dispositivo utilizzato (computer, tablet, smartphone)."
                         },
                         {
                             title: "Cookie Strettamente Necessari <span class=\"pm__badge\">Sempre Attivati</span>",
