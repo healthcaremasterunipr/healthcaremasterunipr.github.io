@@ -27,8 +27,8 @@ CookieConsent.run({
                 consentModal: {
                     title: "Informativa sull'utilizzo di cookie",
                     description: "Per facilitare la navigazione del sito utilizziamo cookie tecnici",
-                    acceptAllBtn: "Accetta",
-                    acceptNecessaryBtn: "Rifiuta",
+                    acceptAllBtn: "Accetta tutto",
+                    acceptNecessaryBtn: "Rifiuta tutto",
                     showPreferencesBtn: "Gestisci preferenze",
                     footer: "<a href=\"#link\">Informativa sulla privacy</a>\n<a href=\"#link\">Termini e condizioni</a>"
                 },
