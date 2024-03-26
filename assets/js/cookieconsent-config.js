@@ -46,7 +46,7 @@ CookieConsent.run({
                         },
                         {
                             title: "Cookie Strettamente Necessari <span class=\"pm__badge\">Sempre Attivati</span>",
-                            description: "Sono i cookie che servono a effettuare la navigazione o a fornire un servizio richiesto dall’utente. Non vengono utilizzati per scopi ulteriori e sono normalmente installati direttamente dal titolare del sito web. Senza il ricorso a tali cookie, alcune operazioni non potrebbero essere compiute o sarebbero più complesse e/o meno sicure, come ad esempio le attività di home banking (visualizzazione dell’estratto conto, bonifici, pagamento di bollette, ecc.), per le quali i cookie, che consentono di effettuare e mantenere l’identificazione dell’utente nell’ambito della sessione, risultano indispensabili.",
+                            description: "Sono i cookie che servono a effettuare la navigazione o a fornire un servizio richiesto dall’utente. Non vengono utilizzati per scopi ulteriori e sono normalmente installati direttamente dal titolare del sito web. Senza il ricorso a tali cookie, alcune operazioni non potrebbero essere compiute o sarebbero più complesse e/o meno sicure, per le quali i cookie, che consentono di effettuare e mantenere l’identificazione dell’utente nell’ambito della sessione, risultano indispensabili.",
                             linkedCategory: "necessary"
                         },
                         {
