@@ -4,12 +4,12 @@ CookieConsent.run({
     guiOptions: {
         consentModal: {
             layout: "box",
-            position: "middle center",
+            position: "bottom center",
             equalWeightButtons: true,
-            flipButtons: true
+            flipButtons: false
         },
         preferencesModal: {
-            layout: "bar",
+            layout: "box",
             position: "right",
             equalWeightButtons: true,
             flipButtons: false
@@ -25,8 +25,8 @@ CookieConsent.run({
         translations: {
             it: {
                 consentModal: {
-                    title: "Informativa sull'utilizzo di cookie",
-                    description: "Per facilitare la navigazione del sito utilizziamo cookie tecnici",
+                    title: "Informativa cookie",
+                    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
                     acceptAllBtn: "Accetta tutto",
                     acceptNecessaryBtn: "Rifiuta tutto",
                     showPreferencesBtn: "Gestisci preferenze",
@@ -42,13 +42,11 @@ CookieConsent.run({
                     sections: [
                         {
                             title: "Utilizzo dei Cookie",
-                            description: I cookie sono brevi frammenti di testo (lettere e/o numeri) che permettono al server web di memorizzare sul client (il browser, ad es. Internet Explorer, Chrome, Firefox, Opera…) informazioni da riutilizzare nel corso della medesima visita al sito (cookie di sessione) o in seguito, anche a distanza di giorni (cookie persistenti). I cookie vengono memorizzati, in base alle preferenze dell’utente, dal singolo browser sullo specifico dispositivo utilizzato (computer, tablet, smartphone)."
+                            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
                         },
                         {
                             title: "Cookie Strettamente Necessari <span class=\"pm__badge\">Sempre Attivati</span>",
-                            description: "Sono i cookie che servono a effettuare la navigazione o a fornire un servizio richiesto dall’utente. Non vengono utilizzati per scopi ulteriori e sono normalmente installati direttamente dal titolare del sito web.
-
-Senza il ricorso a tali cookie, alcune operazioni non potrebbero essere compiute o sarebbero più complesse e/o meno sicure, come ad esempio le attività di home banking (visualizzazione dell’estratto conto, bonifici, pagamento di bollette, ecc.), per le quali i cookie, che consentono di effettuare e mantenere l’identificazione dell’utente nell’ambito della sessione, risultano indispensabili.",
+                            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
                             linkedCategory: "necessary"
                         },
                         {
@@ -58,6 +56,7 @@ Senza il ricorso a tali cookie, alcune operazioni non potrebbero essere compiute
                     ]
                 }
             }
-        }
+        },
+        autoDetect: "browser"
     }
 });
