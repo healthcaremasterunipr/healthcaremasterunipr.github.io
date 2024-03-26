@@ -46,7 +46,7 @@ CookieConsent.run({
                         },
                         {
                             title: "Cookie Strettamente Necessari <span class=\"pm__badge\">Sempre Attivati</span>",
-                            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                            description: "Sono i cookie che servono a effettuare la navigazione o a fornire un servizio richiesto dall’utente. Non vengono utilizzati per scopi ulteriori e sono normalmente installati direttamente dal titolare del sito web.",
                             linkedCategory: "necessary"
                         },
                         {
